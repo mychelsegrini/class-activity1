@@ -1,2 +1,1 @@
-# class-activity1
- 1ª tividade ponderada em sala. 
+This activity was developed in a class in the Institute of Technology and Leadership (Inteli) in São Paulo, Brazil. It basically is a calculator of the average grade of a student that also says if the student was APPROVED or REPROVED. It's that simple.
