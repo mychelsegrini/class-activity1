@@ -1,6 +1,13 @@
-let notas = [10, 9, 8, 7, 7, 9, 10, 9, 4, 10]; //Creates array that will store the grades of a certain student.
+const prompt = require('readline-sync');
+
+let numberOfGrades = parseFloat(prompt.question("Quantas notas deseja adicionar ao sistema? ")); //Asks how many grades will be added.
+let notas = []; //Creates array that will store the grades of a certain student.
 let resultado = "" //Defines a variable that will store the result achieved by the student.
 let media = 0; //Defines a variable that will store the average grade. 
+
+for(let i = 0; i < numberOfGrades; i++){
+    notas.push(parseFloat(prompt.question("Adicione a nota " + (i+1) + ": ")));
+}
 
 for (let x of notas){ //Sums the grades up.
     media += x;
